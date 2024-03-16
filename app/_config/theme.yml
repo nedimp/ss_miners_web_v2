@@ -5,4 +5,5 @@ SilverStripe\View\SSViewer:
   themes:
     - '$public'
     - 'ss_miners'
+    - 'simple'
     - '$default'

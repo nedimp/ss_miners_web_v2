@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5b34393352fd1942b027d989452c0e3",
+    "content-hash": "b68c0a6ac9c3da8aa9b5dcd919eae846",
     "packages": [
+        {
+            "name": "axllent/silverstripe-scss",
+            "version": "1.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axllent/silverstripe-scss.git",
+                "reference": "b9909eb4756556d83a59f6edc6ef26e9df3d1d07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axllent/silverstripe-scss/zipball/b9909eb4756556d83a59f6edc6ef26e9df3d1d07",
+                "reference": "b9909eb4756556d83a59f6edc6ef26e9df3d1d07",
+                "shasum": ""
+            },
+            "require": {
+                "scssphp/scssphp": "^1.11",
+                "silverstripe/framework": "^4.5 || ^5.0"
+            },
+            "conflict": {
+                "axllent/silverstripe-less": "*",
+                "scssphp/scssphp": "1.5.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "Axllent\\Scss\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Slooten",
+                    "homepage": "http://www.axllent.org/"
+                }
+            ],
+            "description": "A wrapper for scssphp to integrate scss compiling directly into Silverstripe",
+            "homepage": "https://github.com/axllent/silverstripe-scss",
+            "keywords": [
+                "css",
+                "sass",
+                "scss",
+                "scssphp",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/axllent/silverstripe-scss/issues",
+                "source": "https://github.com/axllent/silverstripe-scss/tree/1.8.3"
+            },
+            "time": "2023-11-04T19:13:28+00:00"
+        },
         {
             "name": "bramus/ansi-php",
             "version": "3.1",
@@ -95,6 +148,121 @@
                 "source": "https://github.com/bramus/monolog-colored-line-formatter/tree/master"
             },
             "time": "2015-01-07T22:12:35+00:00"
+        },
+        {
+            "name": "buckleshusky/fontawesomeiconpicker",
+            "version": "3.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DoggersHusky/silverstripe-fa-picker.git",
+                "reference": "969ffc5544dfffe5529a4c62c639cfd4dbe92fb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DoggersHusky/silverstripe-fa-picker/zipball/969ffc5544dfffe5529a4c62c639cfd4dbe92fb4",
+                "reference": "969ffc5544dfffe5529a4c62c639cfd4dbe92fb4",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~4.3|~5.0",
+                "silverstripe/vendor-plugin": "^1.0|^2.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "css",
+                    "javascript",
+                    "webfonts"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "buckleshusky\\FontAwesomeIconPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Buckles Husky",
+                    "homepage": "http://doggershusky.com"
+                }
+            ],
+            "description": "Adds a Font Awesome 6.x icon picker for SilverStripe.",
+            "keywords": [
+                "FontAwesome",
+                "font awesome",
+                "icons",
+                "picker",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/DoggersHusky/silverstripe-fa-picker/issues",
+                "source": "https://github.com/DoggersHusky/silverstripe-fa-picker/tree/3.0.7"
+            },
+            "time": "2023-09-21T19:30:34+00:00"
+        },
+        {
+            "name": "bummzack/sortablefile",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bummzack/sortablefile.git",
+                "reference": "e15fc01d93b007b3ce77c890a0a58dfa91ecf03f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bummzack/sortablefile/zipball/e15fc01d93b007b3ce77c890a0a58dfa91ecf03f",
+                "reference": "e15fc01d93b007b3ce77c890a0a58dfa91ecf03f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/asset-admin": "^1.1 || ^2",
+                "silverstripe/framework": "^4.1 || ^5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "expose": [
+                    "client/dist"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bummzack\\SortableFile\\": "src/",
+                    "Bummzack\\SortableFile\\Tests\\": "tests/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "bummzack"
+                }
+            ],
+            "description": "An extension for SilverStripe that adds sorting to UploadField.",
+            "keywords": [
+                "Many Files",
+                "cms",
+                "file",
+                "silverstripe",
+                "sortable",
+                "uploadfield"
+            ],
+            "support": {
+                "issues": "https://github.com/bummzack/sortablefile/issues",
+                "source": "https://github.com/bummzack/sortablefile/tree/2.2.0"
+            },
+            "time": "2023-05-23T07:30:23+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -403,6 +571,81 @@
                 }
             ],
             "time": "2023-08-31T09:50:34+00:00"
+        },
+        {
+            "name": "dnadesign/silverstripe-elemental",
+            "version": "4.11.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-elemental.git",
+                "reference": "e1d637079dedc0792ba370de3d79da91bc3c2942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental/zipball/e1d637079dedc0792ba370de3d79da91bc3c2942",
+                "reference": "e1d637079dedc0792ba370de3d79da91bc3c2942",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "silverstripe/admin": "^1.13.2@dev",
+                "silverstripe/cms": "^4.7@dev",
+                "silverstripe/framework": "^4.12@dev",
+                "silverstripe/graphql": "^3.5 || ^4",
+                "silverstripe/vendor-plugin": "^1",
+                "silverstripe/versioned": "^1.7@dev",
+                "silverstripe/versioned-admin": "^1.7@dev",
+                "symbiote/silverstripe-gridfieldextensions": "^3.1"
+            },
+            "require-dev": {
+                "silverstripe/frameworktest": "^0.4.5",
+                "silverstripe/recipe-testing": "^2"
+            },
+            "suggest": {
+                "dnadesign/silverstripe-elemental-subsites": "Adds subsite support to elemental",
+                "dnadesign/silverstripe-elemental-userforms": "Adds userform support to elemental",
+                "dnadesign/silverstripe-elemental-virtual": "Adds support to share blocks between pages",
+                "silverstripe/elemental-blocks": "Adds a set of common SilverStripe content block types",
+                "silverstripe/fulltextsearch": "Adds fulltext search capability for elements using Solr"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "client/dist",
+                    "client/lang"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "DNADesign\\Elemental\\": [
+                        "src/",
+                        "_legacy/"
+                    ],
+                    "DNADesign\\Elemental\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Saelens",
+                    "email": "alexandre.saelens@dna.co.nz"
+                }
+            ],
+            "description": "Elemental pagetype and collection of Elements",
+            "keywords": [
+                "Content Blocks",
+                "element",
+                "elemental",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/silverstripe/silverstripe-elemental/issues",
+                "source": "https://github.com/silverstripe/silverstripe-elemental/tree/4.11.8"
+            },
+            "time": "2024-02-07T02:54:23+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1704,6 +1947,61 @@
             "time": "2023-12-10T21:03:43+00:00"
         },
         {
+            "name": "nour-almasrieh/socialwall",
+            "version": "0.5.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nourmasrieh/socialwall.git",
+                "reference": "0aaa7fa45177b3d295225c30c5b170bde01faaaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nourmasrieh/socialwall/zipball/0aaa7fa45177b3d295225c30c5b170bde01faaaa",
+                "reference": "0aaa7fa45177b3d295225c30c5b170bde01faaaa",
+                "shasum": ""
+            },
+            "require": {
+                "axllent/silverstripe-scss": "^1.8",
+                "buckleshusky/fontawesomeiconpicker": "^3.0",
+                "bummzack/sortablefile": "^2",
+                "dnadesign/silverstripe-elemental": "^4",
+                "ryanpotter/silverstripe-color-field": "^1.0",
+                "silverstripe/recipe-cms": "^4.11",
+                "unclecheese/silverstripe-image-optionset": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "expose": [
+                    "client/css",
+                    "client/images",
+                    "client/javascript",
+                    "client/scss"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "socialwall\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nour Almasrieh",
+                    "email": "nour.almasrieh@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Social Wall",
+            "support": {
+                "issues": "https://github.com/Nourmasrieh/socialwall/issues",
+                "source": "https://github.com/Nourmasrieh/socialwall/tree/0.5.7"
+            },
+            "time": "2023-07-21T12:57:48+00:00"
+        },
+        {
             "name": "oscarotero/html-parser",
             "version": "v0.1.8",
             "source": {
@@ -2207,6 +2505,131 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "ryanpotter/silverstripe-color-field",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rhym/silverstripe-color-field.git",
+                "reference": "a9e7a21af0812909f3c1209b684bb1645f2acc0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rhym/silverstripe-color-field/zipball/a9e7a21af0812909f3c1209b684bb1645f2acc0f",
+                "reference": "a9e7a21af0812909f3c1209b684bb1645f2acc0f",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0 || ^5.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "installer-name": "silverstripe-color-field",
+                "expose": [
+                    "client"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Potter",
+                    "homepage": "http://ryanpotter.co.nz/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Silverstripe Color Field",
+            "keywords": [
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/Rhym/silverstripe-color-field/issues",
+                "source": "https://github.com/Rhym/silverstripe-color-field/tree/1.0.2"
+            },
+            "time": "2023-08-17T03:47:53+00:00"
+        },
+        {
+            "name": "scssphp/scssphp",
+            "version": "v1.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scssphp/scssphp.git",
+                "reference": "394ed1e960138710a60d035c1a85d43d0bf0faeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/394ed1e960138710a60d035c1a85d43d0bf0faeb",
+                "reference": "394ed1e960138710a60d035c1a85d43d0bf0faeb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.3 || ^9.4",
+                "sass/sass-spec": "*",
+                "squizlabs/php_codesniffer": "~3.5",
+                "symfony/phpunit-bridge": "^5.1",
+                "thoughtbot/bourbon": "^7.0",
+                "twbs/bootstrap": "~5.0",
+                "twbs/bootstrap4": "4.6.1",
+                "zurb/foundation": "~6.7.0"
+            },
+            "suggest": {
+                "ext-iconv": "Can be used as fallback when ext-mbstring is not available",
+                "ext-mbstring": "For best performance, mbstring should be installed as it is faster than ext-iconv"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "forward-command": false,
+                    "bin-links": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ScssPhp\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthon Pang",
+                    "email": "apang@softwaredevelopment.ca",
+                    "homepage": "https://github.com/robocoder"
+                },
+                {
+                    "name": "Cédric Morin",
+                    "email": "cedric@yterium.com",
+                    "homepage": "https://github.com/Cerdic"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://scssphp.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "support": {
+                "issues": "https://github.com/scssphp/scssphp/issues",
+                "source": "https://github.com/scssphp/scssphp/tree/v1.12.1"
+            },
+            "time": "2024-01-13T12:36:40+00:00"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -3682,6 +4105,81 @@
             ],
             "abandoned": "symfony/mailer",
             "time": "2021-10-18T15:26:12+00:00"
+        },
+        {
+            "name": "symbiote/silverstripe-gridfieldextensions",
+            "version": "3.6.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symbiote/silverstripe-gridfieldextensions.git",
+                "reference": "c84d8afa7a082b314609eb23f57483c54cb1c813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-gridfieldextensions/zipball/c84d8afa7a082b314609eb23f57483c54cb1c813",
+                "reference": "c84d8afa7a082b314609eb23f57483c54cb1c813",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "silverstripe/framework": "^4.11",
+                "silverstripe/vendor-plugin": "^1.0"
+            },
+            "replace": {
+                "ajshort/silverstripe-gridfieldextensions": "self.version",
+                "silverstripe-australia/gridfieldextensions": "self.version"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "silverstripe/versioned": "^1",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ],
+                "expose": [
+                    "css",
+                    "javascript",
+                    "client/lang"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symbiote\\GridFieldExtensions\\": "src/",
+                    "Symbiote\\GridFieldExtensions\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                },
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@symbiote.com.au"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/symbiote/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe",
+                "sort",
+                "sort field",
+                "sortable"
+            ],
+            "support": {
+                "issues": "http://github.com/symbiote/silverstripe-gridfieldextensions/issues",
+                "source": "https://github.com/symbiote/silverstripe-gridfieldextensions/tree/3.6.8"
+            },
+            "time": "2024-02-07T03:15:40+00:00"
         },
         {
             "name": "symfony/cache",
@@ -5454,6 +5952,52 @@
                 "source": "https://github.com/ua-parser/uap-php/tree/v3.9.14"
             },
             "time": "2020-10-02T23:36:20+00:00"
+        },
+        {
+            "name": "unclecheese/silverstripe-image-optionset",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-image-optionset.git",
+                "reference": "a145f117f1d266b9094c2263af9fa26223015657"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-image-optionset/zipball/a145f117f1d266b9094c2263af9fa26223015657",
+                "reference": "a145f117f1d266b9094c2263af9fa26223015657",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "css"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Provides a list of selectable items that use images as the primary label instead of text.",
+            "keywords": [
+                "image",
+                "optionsetfield",
+                "radio",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "https://github.com/unclecheese/silverstripe-image-optionset/issues",
+                "source": "https://github.com/unclecheese/silverstripe-image-optionset/tree/master"
+            },
+            "time": "2018-02-09T11:01:34+00:00"
         },
         {
             "name": "webonyx/graphql-php",
