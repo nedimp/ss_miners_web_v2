@@ -1,0 +1,8 @@
+---
+Name: customsccs
+---
+Axllent\Scss\ScssCompiler:
+  theme_dir: 'themes/ss_miners'
+  variables:
+    PrimaryColor: 'red'
+    SecondaryColor: 'blue'

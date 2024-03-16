@@ -13,6 +13,7 @@
 
 </head>
 <body>
+$ElementalArea
 
 <div class="main" role="main">
 	

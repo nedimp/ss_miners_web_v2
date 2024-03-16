@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b68c0a6ac9c3da8aa9b5dcd919eae846",
+    "content-hash": "3c6cb9b3ba8294d382ed15a07c6e5062",
     "packages": [
         {
             "name": "axllent/silverstripe-scss",
