@@ -1,0 +1,157 @@
+---
+Name: MinersContentElement
+After: contentelement
+---
+
+DNADesign\Elemental\Models\BaseElement:
+  inline_editable: false
+# MoritzSauer\ContentElement:
+#   Layouts:
+#     TextMediaRight:
+#       imgPath: 'themes/miners/images/ContentTemplates/TextLeftMediaRight.jpg'
+#       FieldsVisible:
+#         ShowImageDecoElement: false
+#         MenuTitle: true
+#         ShowInMenus: true
+#         VideoMP4ID: false
+#         VideoOGVID: false
+#         VideoWEBMID: false
+#         GalleryImages: false
+#         GalleryArrows: false
+#         BadgePosition: false
+#         AutoPlay: false
+#         Loop: false
+#         Muted: false
+#         Controls: false
+#         PreviewImageID: false
+#         BadgeID: false
+#         ShowImageCaption: false
+#     TextOnly:
+#       imgPath: 'themes/miners/images/ContentTemplates/TextOnly.jpg'
+#       FieldsVisible:
+#         SubTitle: true
+#         MenuTitle: true
+#         ShowInMenus: true
+#         SubTitleBelowTitle: false
+#     TwoColumns:
+#       enabled: false
+#       FieldsVisible:
+#         SubTitle: true
+#         MenuTitle: true
+#         ShowInMenus: true
+#         TextCenter: true
+#         SubTitleBelowTitle: false
+#     TextMediaLeft:
+#       imgPath: 'themes/miners/images/ContentTemplates/TextRightMediaLeft.jpg'
+#       FieldsVisible:
+#         ShowImageDecoElement: true
+#         MenuTitle: true
+#         ShowInMenus: true
+#     MediaFullscreen:
+#       enabled: false
+#       FieldsVisible:
+#         SubTitle: false
+#         MenuTitle: true
+#         ShowInMenus: true
+#     MediaAdditionalImage:
+#       id: 'MediaAdditionalImage'
+#       enabled: false
+#       title: 'Bild mit zweitem Bild'
+#       imgPath: 'themes/miners/images/ContentTemplates/MediaWithAdditionalImage.jpg'
+#       hasMedia: true
+#       FieldsVisible:
+#         TextCenter: true
+#         SubTitle: false
+#         SubTitleBelowTitle: true
+#         Content: true
+#         SecondContent: false
+#         ButtonCaption: true
+#         ExternalLink: true
+#         LinkedPageID: true
+#         ImageID: true
+#         ImageFormat: false
+#         AdditionalImageID: true
+#         AutoPlay: false
+#         Loop: false
+#         Muted: false
+#         Controls: false
+#         PreviewImageID: false
+#         VideoMP4ID: false
+#         VideoOGVID: false
+#         VideoWEBMID: false
+#         GalleryImages: false
+#         GalleryArrows: false
+#         BadgePosition: false
+#         BadgeID: false
+#         ShowImageCaption: false
+#         ShowImageDecoElement: false
+#         MenuTitle: true
+#         ShowInMenus: true
+#     TwoImages:
+#       id: 'TwoImages'
+#       enabled: false
+#       title: 'Text mit zwei Bildern'
+#       imgPath: 'themes/miners/images/ContentTemplates/TwoImages.jpg'
+#       hasMedia: true
+#       FieldsVisible:
+#         TextCenter: true
+#         SubTitle: false
+#         SubTitleBelowTitle: true
+#         Content: true
+#         SecondContent: false
+#         ButtonCaption: true
+#         ExternalLink: true
+#         LinkedPageID: true
+#         ImageID: true
+#         ImageFormat: false
+#         AdditionalImageID: true
+#         AutoPlay: false
+#         Loop: false
+#         Muted: false
+#         Controls: false
+#         PreviewImageID: false
+#         VideoMP4ID: false
+#         VideoOGVID: false
+#         VideoWEBMID: false
+#         GalleryImages: false
+#         GalleryArrows: false
+#         BadgePosition: false
+#         BadgeID: false
+#         ShowImageCaption: false
+#         ShowImageDecoElement: false
+#         MenuTitle: true
+#         ShowInMenus: true
+#     TextMediaBottom:
+#       id: 'TextMediaBottom'
+#       enabled: true
+#       title: 'Text mit Bild unten'
+#       imgPath: 'themes/miners/images/ContentTemplates/TextMediaBottom.jpg'
+#       hasMedia: true
+#       FieldsVisible:
+#         TextCenter: false
+#         SubTitle: true
+#         SubTitleBelowTitle: false
+#         Content: true
+#         SecondContent: false
+#         ButtonCaption: true
+#         ExternalLink: true
+#         LinkedPageID: true
+#         ImageID: true
+#         ImageFormat: false
+#         AdditionalImageID: true
+#         AutoPlay: false
+#         Loop: false
+#         Muted: false
+#         Controls: false
+#         PreviewImageID: false
+#         VideoMP4ID: false
+#         VideoOGVID: false
+#         VideoWEBMID: false
+#         GalleryImages: false
+#         GalleryArrows: false
+#         BadgePosition: false
+#         BadgeID: false
+#         ShowImageCaption: false
+#         ShowImageDecoElement: false
+#         MenuTitle: true
+#         ShowInMenus: true

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c6cb9b3ba8294d382ed15a07c6e5062",
+    "content-hash": "c5d03f2aabf98e517a7858a341901147",
     "packages": [
         {
             "name": "axllent/silverstripe-scss",
@@ -1889,6 +1889,55 @@
                 }
             ],
             "time": "2022-06-09T08:53:42+00:00"
+        },
+        {
+            "name": "moritz-sauer-13/contentelement",
+            "version": "0.1.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moritz-sauer-13/silverstripe-contentelement.git",
+                "reference": "ff9785327bb20114296beb80261bfbb21ae788d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moritz-sauer-13/silverstripe-contentelement/zipball/ff9785327bb20114296beb80261bfbb21ae788d5",
+                "reference": "ff9785327bb20114296beb80261bfbb21ae788d5",
+                "shasum": ""
+            },
+            "require": {
+                "axllent/silverstripe-scss": "^1.8",
+                "bummzack/sortablefile": "^2",
+                "dnadesign/silverstripe-elemental": "^4",
+                "silverstripe/recipe-cms": "^4",
+                "unclecheese/silverstripe-image-optionset": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "expose": [
+                    "client/css",
+                    "client/images",
+                    "client/js",
+                    "client/scss"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "ContentElement\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Moritz Sauer",
+                    "email": "ms@tietge.com"
+                }
+            ],
+            "description": "Content Element",
+            "support": {
+                "issues": "https://github.com/moritz-sauer-13/silverstripe-contentelement/issues",
+                "source": "https://github.com/moritz-sauer-13/silverstripe-contentelement/tree/0.1.11"
+            },
+            "time": "2023-07-17T11:43:31+00:00"
         },
         {
             "name": "nikic/php-parser",
