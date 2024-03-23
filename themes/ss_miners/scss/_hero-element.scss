@@ -1,0 +1,47 @@
+
+.header-container {
+    height: 50vw;
+    background-image: url('/images/home.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    left: 5em;
+    right: 5em;
+    bottom: 6em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.header-content .header,
+.header-content .subheader {
+    color: white;
+    width: 100%;
+    max-width: 900px;
+}
+
+.header-content .header {
+    font-size: 90px;
+}
+
+.header-content .subheader {
+    font-family: TitilliumWeb-SemiBold;
+    font-size: 24px;
+}
+
+.header-content .right-pane {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-content .right-pane .video {
+    width: 372px;
+    height: 209px;
+    background-color: white;
+}
+

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Freshman;
+    src: url('/fonts/Freshman.ttf');
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url('/fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+    font-family: TitilliumWeb-SemiBold;
+    src: url('/fonts/TitilliumWeb-SemiBold.ttf');
+}
+
+.button {
+    background-color: #002817;
+    color: white;
+    font-size: 18px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button.inverted {
+    background-color: white;
+    color: #002817;
+}
+
+.button.outline {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+body {
+    font-family: Freshman;
+}
+
+.two-pane {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;  
+}
+
+.section {
+    background-color: #002817;
+}
+
+.section .content {
+    width: 1700px;
+    margin: auto;
+}
+
+.section h2 {
+    margin: 0;
+    font-family: Freshman;
+    font-size: 60px;
+    color: white;
+}
+
+.section h3 {
+    margin: 0;
+    font-family: Freshman;
+    font-size: 30px;
+    color: #CDAB56;
+}
+
+.section p {
+    font-family: TitilliumWeb-Regular;
+    font-size: 18px;
+    color: white;
+}
+
+.section.join-us img {
+    width: 100%;
+}
+
+.section.join-us .right-pane {
+    padding: 130px;
+}
+
+.section.join-us h2 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.section.join-us h3 {
+    margin: 0;
+}
+
+.section.rooster .team-logos {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section.rooster .team-logos > * {
+    padding: 16px;
+    opacity: 50%;
+}
+
+.section.rooster .team-logos img {
+    height: 50px;
+}
+
+.section.rooster .players {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.section.rooster .player {
+    height: 585px;
+    width: 372px;
+    grid-row: 1;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 1fr auto auto;
+    text-transform: uppercase;
+}
+
+.section.rooster .img-holder {
+    background-color: #5b7661;
+}
+
+
+.section.rooster .player .name {
+    font-family: Freshman;
+    font-size: 26px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.section.rooster .player .position {
+    font-family: TitilliumWeb-Regular;
+    font-size: 18px;
+    color: #688168;
+}

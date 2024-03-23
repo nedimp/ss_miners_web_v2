@@ -32,6 +32,7 @@ namespace {
 
             Requirements::combine_files('combined.css', [
                 'themes/ss_miners/css/bootstrap.min.css',
+                'themes/ss_miners/css/utils.css',
             ]);
 
             Requirements::combine_files('javascript.js', [
