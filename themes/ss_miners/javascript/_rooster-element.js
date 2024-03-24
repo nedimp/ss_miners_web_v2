@@ -26,7 +26,7 @@
 })();
 
 (() => {
-    document.querySelectorAll('.swiper').forEach(node => {
+    document.querySelectorAll('.section.rooster .swiper').forEach(node => {
         new Swiper(node, {
             slidesPerView: 'auto',
             spaceBetween: 30,

@@ -15,6 +15,7 @@ class Team extends DataObject
     );
 
     private static $has_one = array(
-        'Logo' => Image::class
+        'Logo' => Image::class,
+        'Image' => Image::class,
     );
 }
