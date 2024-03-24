@@ -14,6 +14,7 @@ class Player extends DataObject
         'Position' => 'Varchar(100)',
         'ActiveSince' => 'Date',
         'Nationality' => 'Varchar(50)',
+        'Number' => 'Int'
     );
 
     private static $has_one = array(

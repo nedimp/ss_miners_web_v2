@@ -32,11 +32,14 @@ namespace {
 
             Requirements::combine_files('combined.css', [
                 'themes/ss_miners/css/bootstrap.min.css',
+                'themes/ss_miners/css/swiper-bundle.min.css',
                 'themes/ss_miners/css/utils.css',
+                'themes/ss_miners/css/home-page.css'
             ]);
 
             Requirements::combine_files('javascript.js', [
                 'themes/ss_miners/javascript/bootstrap.prod.bundle.min.js',
+                'themes/ss_miners/javascript/swiper-bundle.min.js'
             ]);
             Requirements::process_combined_files();
         }

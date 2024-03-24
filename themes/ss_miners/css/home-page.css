@@ -34,8 +34,13 @@
     background-color: transparent;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: Freshman;
+    font-size: 10px;
 }
 
 .two-pane {
@@ -76,77 +81,4 @@ body {
     font-family: TitilliumWeb-Regular;
     font-size: 18px;
     color: white;
-}
-
-.section.join-us img {
-    width: 100%;
-}
-
-.section.join-us .right-pane {
-    padding: 130px;
-}
-
-.section.join-us h2 {
-    margin: 0;
-    margin-bottom: 25px;
-}
-
-.section.join-us h3 {
-    margin: 0;
-}
-
-.section.rooster .team-logos {
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.section.rooster .team-logos > * {
-    padding: 16px;
-    opacity: 50%;
-}
-
-.section.rooster .team-logos img {
-    height: 50px;
-}
-
-.section.rooster .players {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.hidden {
-    display: none !important;
-}
-
-.section.rooster .player {
-    height: 585px;
-    width: 372px;
-    grid-row: 1;
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-rows: 1fr auto auto;
-    text-transform: uppercase;
-}
-
-.section.rooster .img-holder {
-    background-color: #5b7661;
-}
-
-
-.section.rooster .player .name {
-    font-family: Freshman;
-    font-size: 26px;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 12px;
-}
-
-.section.rooster .player .position {
-    font-family: TitilliumWeb-Regular;
-    font-size: 18px;
-    color: #688168;
 }
