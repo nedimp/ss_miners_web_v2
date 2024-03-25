@@ -1,0 +1,33 @@
+.section.standings {
+    & tr {
+        border-color: rgba(white, 0.1);
+    }
+
+    & td,
+    & th {
+        background-color: transparent;
+        vertical-align: middle;
+    }
+
+    & td {
+        color: white;
+        font-family: Freshman;
+        font-size: 2rem;
+
+        &:nth-child(3) {
+            font-size: 2.2rem;
+        }
+    }
+
+    & th {
+        font-size: 1.8rem;
+        color: #688168;
+        font-family: TitilliumWeb-Regular;
+    }
+
+    & img {
+        width: 3.5rem;
+        height: 3.5rem;
+        object-fit: contain;
+    }
+}
