@@ -1,7 +1,6 @@
-
 .header-container {
     height: 50vw;
-    background-image: url('/images/home.webp');
+    background-image: url("/images/home.webp");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -45,3 +44,24 @@
     background-color: white;
 }
 
+.nav-bar {
+    display: flex;
+    align-items: center;
+    position: absolute !important;
+    bottom: 20px;
+    left: 20px;
+}
+
+.nav-bar-item {
+    margin-top: 0px;
+    width: 30px;
+    height: 10px;
+    margin-right: 5px; /* Adjust margin between items */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-bar-item.active {
+    background-color: transparent; /* Transparent background for active item */
+}
