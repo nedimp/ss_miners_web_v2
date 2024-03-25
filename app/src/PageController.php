@@ -38,7 +38,7 @@ namespace {
             ]);
 
             Requirements::combine_files('javascript.js', [
-                'themes/ss_miners/javascript/bootstrap.prod.bundle.min.js',
+                'themes/ss_miners/javascript/bootstrap.bundle.min.js',
                 'themes/ss_miners/javascript/swiper-bundle.min.js'
             ]);
             Requirements::process_combined_files();
