@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-6">
-                <img class="w-100 object-fit-cover squared" src="$Image.URL" alt="" />
+                <img class="w-100 object-fit-contain img-height" src="$Image.URL" alt="" />
             </div>
             <div class="col-6 p-6">
                 <h2>$Title</h2>

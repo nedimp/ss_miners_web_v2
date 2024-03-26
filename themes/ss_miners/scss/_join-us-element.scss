@@ -21,6 +21,7 @@
     font-family: TitilliumWeb-Regular;
     font-size: 18px;
     color: white;
+    text-align: justify;
 }
 
 .section.join-us img {
@@ -43,3 +44,11 @@
 .hidden {
     display: none !important;
 }
+
+.button.outline {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    background-color: transparent;
+}
+

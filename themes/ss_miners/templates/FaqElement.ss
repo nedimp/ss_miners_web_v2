@@ -3,16 +3,18 @@
 <div class="section faq">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 margin-alignment">
                 <h2>$Title</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                <img class="w-75"  src="$Image.URL" />
-                <h3>$Subtitle</h3>
-                <p>$Details</p>
+                <img class="w-75 margin-alignment"  src="$Image.URL" />
+                <h3 class="margin-alignment" >$Subtitle</h3>
+                <p class="margin-alignment p-details">$Details</p>
+            <div class="button-container">
                 <div class="button inverted">$ReadMoreLabel</div>
+            </div>
             </div>
             <div class="col-6">
                 <div class="accordion" id="faq-$ID">

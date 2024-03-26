@@ -23,4 +23,25 @@
         font-size: 1.8rem;
         color: #002817;
     }
+
+    & .margin-alignment {
+        margin-bottom: 3rem;
+    }
+
+    & .button {
+        width: 50%;
+       }
+
+    & .p-details {
+        text-align: justify;
+        width: 75%;
+    }
+
+    & .button-container {
+        width: 75%;
+    display: flex;
+    justify-content: center;
 }
+    
+}
+
