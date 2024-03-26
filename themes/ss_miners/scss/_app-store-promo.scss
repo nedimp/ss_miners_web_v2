@@ -1,0 +1,18 @@
+body {
+    // Define your body styles here
+    background-color: #002817;
+}
+.full-width {
+    display: flex;
+    justify-content: center;
+}
+
+.img-holder {
+    max-width: 100%; // Optional, to ensure the image doesn't overflow its container
+}
+
+.img-holder img {
+    display: block; // Removes the default inline nature of images
+    max-width: 100%; // Ensures the image doesn't overflow its container
+    height: auto; // Maintains aspect ratio
+}
