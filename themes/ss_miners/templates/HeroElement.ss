@@ -27,38 +27,4 @@
         <% end_loop %>
     </div>
 </div>
-
-<script>
-    var images = document.querySelectorAll('.header-container');
-    var navBarItems = document.querySelectorAll('.nav-bar-item');
-
-    // Initialize the index of the currently visible image
-    var currentIndex = 0;
-
-    // Set the initial state of the navigation bar items
-    navBarItems[currentIndex].style.backgroundColor = 'white';
-    navBarItems[(currentIndex + 1) % navBarItems.length].style.backgroundColor = 'black';
-
-    // Create an intersection observer
-    var observer = new IntersectionObserver(function(entries) {
-        // Loop through the entries
-        entries.forEach(function(entry) {
-            // Get the index of the currently observed image
-            var index = Array.prototype.indexOf.call(images, entry.target);
-
-            // If the element is in the viewport
-            if (entry.isIntersecting) {
-                // Change the background color of the navigation bar items based on the index
-                navBarItems[currentIndex].style.backgroundColor = 'black'; // Set the current item to black
-                currentIndex = index; // Update the current index
-                navBarItems[currentIndex].style.backgroundColor = 'white'; // Set the new current item to white
-            }
-        });
-    }, { threshold: 0.5 }); // Trigger when at least 50% of the image is visible
-
-    // Observe each image
-    images.forEach(function(image) {
-        observer.observe(image);
-    });
-</script>
 </body>

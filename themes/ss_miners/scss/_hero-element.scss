@@ -57,11 +57,11 @@
     width: 30px;
     height: 10px;
     margin-right: 5px; /* Adjust margin between items */
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    background-color: black;
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .nav-bar-item.active {
-    background-color: transparent; /* Transparent background for active item */
+    background-color: white;
 }
