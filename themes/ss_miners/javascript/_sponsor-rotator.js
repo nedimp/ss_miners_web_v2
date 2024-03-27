@@ -1,14 +1,18 @@
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
     function rotateLogos() {
-        var $sponsorRotator = $('.sponsor-rotator');
-        var $sponsorLogos = $sponsorRotator.find('.sponsor-logos');
+        var sponsorRotator = document.querySelector('.sponsor-rotator');
+        var sponsorLogos = sponsorRotator.querySelector('.sponsor-logos');
+        var firstLogo = sponsorLogos.firstElementChild;
 
-        var $firstLogo = $sponsorLogos.children().first();
-        $sponsorLogos.append($firstLogo.clone()); // Move first logo to the end
-        $firstLogo.remove(); // Remove the first logo from its original position
+        var clone = firstLogo.cloneNode(true);
+        sponsorLogos.appendChild(clone); // Move first logo to the end
+        sponsorLogos.removeChild(firstLogo); // Remove the first logo from its original position
 
-        $sponsorLogos.css('transform', 'translateX(-' + $firstLogo.outerWidth(true) + 'px)'); // Shift logos left
-        $sponsorLogos.animate({ 'transform': 'translateX(0px)' }, 500); // Animate transition
+        sponsorLogos.style.transform = 'translateX(-' + firstLogo.offsetWidth + 'px)'; // Shift logos left
+        setTimeout(function() {
+            sponsorLogos.style.transition = 'transform 0.5s ease';
+            sponsorLogos.style.transform = 'translateX(0px)'; // Animate transition
+        }, 10);
     }
 
     setInterval(rotateLogos, 10000); // Rotate every 10 seconds
