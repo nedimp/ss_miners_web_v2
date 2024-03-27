@@ -1,0 +1,51 @@
+.section.news {
+    background-color: white;
+
+    & h2 {
+        color: #002817;
+    }
+
+    & .news-card {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        width: 600px;
+        background-color: #688168;
+        height: unset;
+    }
+
+    & .news-card img {
+        aspect-ratio: 1.6;
+    }
+
+    & .news-card h2 {
+        font-family: Freshman;
+        font-size: 3rem;
+        color: white;
+    }
+
+    & .news-card-content {
+        padding: 32px 44px;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        gap: 18px;
+        font-family: TitilliumWeb-Regular;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    & .swiper-scrollbar {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        background-color: #0F3525;
+        border-radius: 0;
+    }
+
+    & .swiper-scrollbar-drag {
+        background-color: #CDAB56;
+        border-radius: 0;
+    }
+}
