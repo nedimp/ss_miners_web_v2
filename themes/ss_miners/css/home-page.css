@@ -13,6 +13,11 @@
     src: url('/fonts/TitilliumWeb-SemiBold.ttf');
 }
 
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url('/fonts/TitilliumWeb-Bold.ttf');
+}
+
 .button {
     background-color: #002817;
     color: white;

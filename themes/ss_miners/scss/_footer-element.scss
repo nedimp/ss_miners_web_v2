@@ -1,0 +1,27 @@
+.section.footer {
+    color: white;
+    font-family: TitilliumWeb-Regular;
+    font-size: 1.8rem;
+    padding-bottom: 0;
+
+    & h2 {
+        font-family: Freshman;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    & strong {
+        font-family: TitilliumWeb-Bold;
+    }
+
+    & .very-big-logo {
+        margin-top: 70px;
+        font-family: Freshman;
+        text-align: center;
+        font-size: 19.65vw;
+        height: 10vw;
+        overflow: hidden;
+        line-height: 1;
+        color: #0D3323;
+    }
+}
