@@ -9,7 +9,7 @@ class Player extends DataObject
         'FirstName' => 'Varchar(100)',
         'LastName' => 'Varchar(100)',
         'Weight' => 'Int',
-        'Age' => 'Int',
+        'Age' => 'Varchar(100)',
         'Height' => 'Decimal(5,2)',
         'Position' => 'Varchar(100)',
         'ActiveSince' => 'Date',

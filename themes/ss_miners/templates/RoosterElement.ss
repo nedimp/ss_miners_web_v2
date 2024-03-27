@@ -20,7 +20,11 @@
                         <div class="swiper-slide player">
                             <div class="img-holder">
                                 <div class="number">$Number</div>
-                                <img class="h-100" src="$Image.URL"></img>
+                                <% if $Image.URL %>
+                                    <img class="h-100" src="$Image.URL"></img>
+                                <% else %>
+                                    <img class="h-100" src="/assets/avatar.png"></img>
+                                <% end_if %>
                                 <div class="button inverted">PROFIL</div>
                             </div>
                             <div class="name">$FirstName $LastName</div>
