@@ -1,67 +1,60 @@
-.header-container {
-    height: 50vw;
-    background-image: url("/images/home.webp");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+.section.hero {
+    padding: 0;
 
-.header-content {
-    position: absolute;
-    left: 5em;
-    right: 5em;
-    bottom: 6em;
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
+    & .hero-content {
+        position: relative;
+        width: 100vw;
+        height: 50vw;
 
-.header-content .header,
-.header-content .subheader {
-    color: white;
-    width: 100%;
-    max-width: 900px;
-}
+        & > div {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 160px;
+        }
 
-.header-content .header {
-    font-size: 90px;
-}
+        & > img {
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            position: absolute;
+        }
+    }
 
-.header-content .subheader {
-    font-family: TitilliumWeb-SemiBold;
-    font-size: 24px;
-}
+    & h1 {
+        color: white;
+        font-family: Freshman;
+        font-size: 9rem;
+    }
 
-.header-content .right-pane {
-    display: grid;
-    grid-auto-flow: row;
-    align-items: center;
-    gap: 18px;
-}
+    & p {
+        color: white;
+        font-family: TitilliumWeb-SemiBold;
+        font-size: 2.4rem;
+        line-height: 1;
+    }
 
-.header-content .right-pane .video {
-    width: 372px;
-    height: 209px;
-    background-color: white;
-}
+    & .video {
+        background-color: white;
+        aspect-ratio: 5/3;
+        margin-bottom: 27px;
+    }
 
-.nav-bar {
-    display: flex;
-    align-items: center;
-    position: absolute !important;
-    bottom: 20px;
-    left: 20px;
-}
+    & .swiper-pagination {
+        bottom: 70px;
+    }
 
-.nav-bar-item {
-    margin-top: 0px;
-    width: 30px;
-    height: 10px;
-    margin-right: 5px; /* Adjust margin between items */
-    background-color: black;
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition */
-}
+    & .swiper-pagination-bullet {
+        opacity: 0.5;
+        width: 100px;
+        background-color: white;
+        border-radius: 0;
+    }
 
-.nav-bar-item.active {
-    background-color: white;
+    & .swiper-pagination-bullet-active {
+        background-color: white;
+        opacity: 1;
+    }
 }

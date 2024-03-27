@@ -1,30 +1,34 @@
 <% require themedJavascript('_hero-element') %>
 <% require themedCSS('_hero-element') %>
-
-<body>
-    <% loop $Images %>
-        <div class="header-container hidden" style="background-image: url('$Image.URL')">
-            <div class="header-content">
-                <div class="left-pane">
-                    <div class="header">
-                        $Title
-                    </div>
-                    <div class="subheader">
-                        $Subtitle
+<div class="section hero">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <% loop $Images %>
+                <div class="swiper-slide">
+                    <div class="hero-content">
+                        <img src="$Image.URL" />
+                        <div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h1>$Title</h1>
+                                        <p>$Subtitle</p>
+                                    </div>
+                                    <div class="col-1">
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="video">VIDEO</div>
+                                        <div class="button">READ MORE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="right-pane">
-                    <div class="video">VIDEO</div>
-                    <div class="button">READ MORE</div>
-                </div>
-            </div>
+            <% end_loop %>
         </div>
-    <% end_loop %>
-
-    <div class="nav-bar">
-        <% loop $Images %>
-            <div class="nav-bar-item" id="nav-bar-item-$Pos"></div>
-        <% end_loop %>
+        <div class="container position-relative">
+            <div class="swiper-pagination text-start"></div>
+        </div>
     </div>
 </div>
-</body>
